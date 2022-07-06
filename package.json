@@ -1,0 +1,27 @@
+{
+  "name": "githubapi",
+  "version": "1.0.0",
+  "description": "Creating graphql server for APIs with graphql API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zemoso-boopathym/github-poc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zemoso-boopathym/github-poc/issues"
+  },
+  "homepage": "https://github.com/zemoso-boopathym/github-poc#readme",
+  "dependencies": {
+    "@octokit/core": "^3.6.0",
+    "apollo-server": "^3.9.0",
+    "dotenv": "^16.0.1",
+    "graphql": "^16.5.0"
+  }
+}
