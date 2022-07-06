@@ -10,7 +10,7 @@ const username = process.env.GH_USERNAME;
 exports.Query = {
   User: async () => {
     try {
-      const { data } = await octokit.request(`/users/${username}`);
+      const { data } = await octokit.request(`/user`);
       return data;
     } catch (err) {
       console.log(err);
